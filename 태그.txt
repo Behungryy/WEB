@@ -1,0 +1,18 @@
+title
+h1~6
+strong: 문장 강조
+u (under line):  문장 밑줄
+ul (unordered list): 순서없는 목록
+ol (ordered list): 순서있는 목록  (ex/ 1. 2. 3.)
+br : 줄 바꿈 *닫는게  없음
+p: 문단의 길이 단락을 정함
+&nbsp: 공백
+width: 사진 등 폭 너비 조절
+
+<div>
+    <a href=#none id="show" onclick="if(hide.style.display=='none') {hide.style.display='';show.innerText='▲접기'} else {hide.style.display='none';show.innerText='▶펼치기'}">▶펼치기</a>
+    <div id="hide" style="display: none;">
+    펼치면 보이는 내용을 적어줍니다. <br />
+    아무 내용이나 적어주세요. <br />
+    </div>
+    </div>
